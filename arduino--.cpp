@@ -14,6 +14,9 @@ void setup()
 
 int set_duration(float hour)
 {
+    if (hour < 1) {
+        return 2;
+    }
   float day = 24;
   float day_rev = 39;
   int delay_value;
