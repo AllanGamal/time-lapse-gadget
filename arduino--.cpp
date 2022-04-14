@@ -12,7 +12,7 @@ void setup()
 }
 
 
-int set_duration(int hour)
+int set_duration(float hour)
 {
   float day = 24;
   float day_rev = 39;
