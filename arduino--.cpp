@@ -1,4 +1,3 @@
-
 #define STEP_PIN_1 9
 #define STEP_PIN_2 10
 #define STEP_PIN_3 11
@@ -12,19 +11,26 @@ void setup()
     pinMode(STEP_PIN_4, OUTPUT);
 }
 
-int duration(int minutes, int angle)
+
+int set_duration(int hour)
 {
+  float day = 24;
+  float day_rev = 39;
+  int delay_value;
+  
+  delay_value = round((hour*day_rev)/day);
+  
+  return delay_value;
+  
 }
 
-int sunmode(int minutes, int angle)
-{
-}
+
 
 void loop()
 {
 
-    OneStep(false);
-    delay(25);
+    OneStep(true);
+    delay(set_duration(1)); // (Hour)/360 speed input
 }
 
 void OneStep(bool dir)
