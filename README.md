@@ -48,7 +48,7 @@ to make it as sheep as possible.
 The final gear reduction from motor input to output is 1080:1. This does allow a fairly good traction of the sun in x-direction, not perfect. 
 Here is some math:
 
-<img src="img/IMG_19119480F93C-1.jpeg" height="800px">
+<img src="img/IMG_19119480F93C-1.jpeg">
 
 **Gears**
 
@@ -56,7 +56,7 @@ Here is some math:
 The reason gears was picked in this configuration, without some protective housing, is because it looks cool! 
 Having only a 0.8mm nozzle for 3D printing, a somewhat high tolerance of .2 was used, which was a good choice since I have some problems with elephant foot with my 3d-printer:
 
-<img src="img/IMG_20220417_184803.jpg" height="400px">
+<img src="img/IMG_20220417_184803.jpg" >
 
 **Result**
 
@@ -68,6 +68,6 @@ The system does not have a tight fit or bearings, and when mounting the phone wi
 
 Here is some images:
 
-<img src="img/PXL_20220417_164550577.jpg" height="800px">
+<img src="img/PXL_20220417_164550577.jpg">
 
 
